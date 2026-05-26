@@ -30,7 +30,7 @@
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
               <span class="d-block d-lg-none">Mehran Moeini Jam</span>
               <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="index_files/profile.jpg" alt="">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="index_files/profile.png" alt="">
               </span>
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -262,12 +262,14 @@
             <div class="my-auto">
               <h2 class="mb-5">Open Source Projects</h2>
 
-              <div class="resume-item d-flex mb-5">
-  <div class="me-4 flex-shrink-0" style="padding-top: 70px; margin-right: 30px;">
-    <img src="index_files/tcompos.png"
-         width="600"
-         class="img-fluid rounded">
-  </div>
+              <div class="resume-item d-flex flex-column flex-lg-row mb-5">
+  <div class="me-lg-4 flex-shrink-0 text-center mb-4 mb-lg-0"
+     style="max-width: 600px; width: 100%; margin-right: 30px;">
+
+  <img src="index_files/tcompos.png"
+       class="img-fluid img-profile mx-auto d-block"
+       alt="TCompos screenshot">
+</div>
 
   <div>
 
@@ -280,12 +282,10 @@
       </small>
     </h3>
 
-    <!-- Description -->
     <p style="text-align: justify;">
       TCompos is a tool designed to verify the correctness of systems specified as networks of timed automata. Targeting timed safety properties, the tool introduces a new compositional framework based on assume-guarantee reasoning. The approach involves decomposing the network into an open-system component and an environment component, enabling reasoning about each part (almost) in isolation before analyzing their combined behavior together. By reducing the state-space size, the method can improve performance by multiple orders of magnitude, enabling the algorithm to verify correctness or detect violations early in the analysis.
     </p>
 
-    <!-- Links -->
     <div class="d-flex align-items-center flex-wrap gap-2">
 
       <a href="https://github.com/memoeini/TCompos/"
